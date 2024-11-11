@@ -1,7 +1,7 @@
 # tutorial-docker
 
 
-It is my notes, progress reffered to learning the Docker.
+### It is my notes, progress reffered to learning the Docker.
 
-First lesson: 
+First lesson "docker compose": 
 https://docs.docker.com/compose/gettingstarted/

@@ -1,0 +1,10 @@
+services:
+  myapp:
+    image: ubuntu:22.04
+    secrets:
+      - mydbpass
+    command: ["tail", "-f", "//dev/null"]
+secrets:
+  mydbpass:
+    external: true
+

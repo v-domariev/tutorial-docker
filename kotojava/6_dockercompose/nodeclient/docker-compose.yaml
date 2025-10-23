@@ -1,0 +1,11 @@
+services:
+  server:
+    image: server:latest
+    ports:
+      - "8080:8080"
+  client:
+    image: client:latest
+    volumes:
+      - mydockercompose_volume2:/data
+volumes:
+  mydockercompose_volume2:
